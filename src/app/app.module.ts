@@ -15,12 +15,13 @@ import { ServiceModule } from './services/service.module';
 
 // Módulos
 import { PagesModule } from './pages/pages.modulo';
-import { FormsModule } from '@angular/forms';;
+import { FormsModule } from '@angular/forms';
+import { RxjsComponent } from './pages/rxjs/rxjs.component';;
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent, 
-    RegisterComponent
+    RegisterComponent, RxjsComponent
   ],
   imports: [
     BrowserModule,
